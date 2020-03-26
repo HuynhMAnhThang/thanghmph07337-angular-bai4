@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HomeCompComponent } from './homeComp/homeComp.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductServicesService } from './services/product-services.service';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { ProductServicesService } from './services/product-services.service';
       AppComponent,
       HomeCompComponent,
       ProductListComponent,
+      ProductDetailComponent,
 
    ],
    imports: [
